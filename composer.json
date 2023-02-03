@@ -1,0 +1,56 @@
+{
+    "name": "jzavorohina/picby",
+    "description": "A PHP сlass for selecting images by colors or pictures",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": [
+        "image",
+        "color",
+        "colour",
+        "picture",
+        "images",
+        "colors",
+        "colours",
+        "pictures",
+        "images by color",
+        "images by colour",
+        "pictures by color",
+        "pictures by colour",
+        "images by images",
+        "pictures by pictures",
+        "pic by pic",
+        "color picker",
+        "colour picker",
+        "pick by color",
+        "pick by colour",
+        "pick by images",
+        "pick by pictures",
+        "image engine",
+        "pictures engine"
+    ],
+    "homepage": "https://github.com/jzavorohina/picby",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Julia Zavorohina",
+            "email": "jzavorohina@yandex.ru",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jzavorohina/picby/issues"
+    },
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "require-dev": {
+        "php": ">=7.3.0",
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "files": [
+            "src/PicBy.class.php",
+            "tests/PicByTest.php"
+        ]
+    }
+}
